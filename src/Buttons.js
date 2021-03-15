@@ -3,7 +3,7 @@ import React from 'react';
 function Buttons(props) {
 
     function plus() {
-        props.setCounter(props.counter + 4);
+        props.setCounter(props.counter + 3);
     }
     function minus(){
         props.setCounter(props.counter - 2);
