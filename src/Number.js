@@ -1,9 +1,12 @@
 import React from 'react';
+import {useSelector} from "react-redux";
 
 function Number(props) {
+
+    const number = useSelector(state => state)
     return (
         <div className="big">
-            {props.counter}
+            {number}
         </div>
     );
 }
